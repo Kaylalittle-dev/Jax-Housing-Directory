@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Jax Housing Directory</title>
+         <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <!-- CSS Stylesheet -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- FAVICON -->
+        <link rel="icon" href="favicon.ico">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/0b5ae10d2b.js" crossorigin="anonymous"></script>
+        <!-- JS Script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </head>
+</html>
+
+<body>
+
+    <!------------------------------------ NAV BAR ----------------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #628E90;">
+        <a class="navbar-brand" href="#home">JHD</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id=navbarTogglerDemo01>
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#map-search">Map Search</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#jax-regions">Jax Regions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#to-do-jax">To Do in Jax</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#subscribe">Subscribe</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+<!-- HOME -->
+
+    <div class="row" id="home">
+        <div class="col-lg-6">
+            <h1 class="big-heading">Jax Housing Directory</h1>
+            <h2>Welcome</h2>
+            <button class="home-buttons">Buy</button>
+            <button class="home-buttons">Rent</button>
+            <button class="home-buttons">HUD</button>
+            <button class="home-buttons">Temp Stays</button>
+        </div>
+        <div class="col-lg-6">
+            <img class="home-image" src="images/downtown-jax.jpg" alt="downtown-jax">
+        </div>
+    </div>
+
+<!-- MAP SEARCH -->
+
+    <section class="map-section" id="map-search">
+        <h2>Map Search</h2>
+        <div class="row">
+            <div col-lg-6>
+                <label for="jax-search">Search Jax Regions</label>
+                <input type="search" id="map-search" name="map search">
+            </div>
+            <div col-lg-6>
+                <img class="jax-map" src="images/jax-map.png" alt="jax-map">
+            </div>
+        </div>
+    </section>
+
+<!-- JAX REGIONS -->
+
+    <section class="jax-regions-section" id="jax-regions">
+        <h3 class="regions-header">About Jax and Its Regions</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae purus faucibus ornare suspendisse sed nisi lacus sed. Aliquet porttitor lacus luctus accumsan tortor posuere. Id aliquet risus feugiat in ante. Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Egestas dui id ornare arcu odio ut sem nulla pharetra. Duis at tellus at urna condimentum mattis pellentesque id nibh. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Elementum eu facilisis sed odio morbi quis. Urna cursus eget nunc scelerisque viverra mauris in. Vel pretium lectus quam id leo in vitae turpis massa. Volutpat sed cras ornare arcu dui. Morbi tempus iaculis urna id. Eget duis at tellus at urna. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices.</p>
+        <div class="row" id="region-buttons">
+
+        <button class="col-lg-3 col-md-6">Northside</button>
+        <button class="col-lg-3 col-md-6">Arlington</button>
+        <button class="col-lg-3 col-md-6">East Arlington</button>
+        <button class="col-lg-3 col-md-6">Beaches</button>
+        <button class="col-lg-3 col-md-6">Southside</button>
+        <button class="col-lg-3 col-md-6">Mandarin</button>
+        <button class="col-lg-3 col-md-6">Baymeadows</button>
+        <button class="col-lg-3 col-md-6">Orange Park</button>
+        <button class="col-lg-3 col-md-6">Westside</button>
+        <button class="col-lg-3 col-md-6">Riverside</button>
+        <button class="col-lg-3 col-md-6">Downtown</button>
+        <button class="col-lg-3 col-md-6">Springfield</button>
+
+        </div>
+    </section>
+
+<!-- CAROUSEL SECTION -->
+
+    <section class="carousel-section" id="to-do-jax">
+        <h2>What To Do In Jax</h2>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button class="carousel-button" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button class="carousel-button" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button class="carousel-button" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button class="carousel-button" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button class="carousel-button" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h3>Museums</h3>
+                <img class="carousel-img" src="images/museum-img.jpg" alt="museum-img">
+            </div>
+            <div class="carousel-item">
+                <h3>Parks</h3>
+                <img class="carousel-img" src="images/park-img.jpg" alt="park-img">
+            </div>
+            <div class="carousel-item">
+                <h3>Top Golf</h3>
+                <img class="carousel-img" src="images/top-golf-img.jpg" alt="top-golf-img">
+            </div>
+            <div class="carousel-item">
+                <h3>Shopping</h3>
+                <img class="carousel-img" src="images/op-mall-img.jpeg" alt="malls-img">
+            </div>
+            <div class="carousel-item">
+                <h3>Beaches</h3>
+                <img class="carousel-img" src="images/beaches-img.jpg" alt="beaches-img">
+            </div>
+            <div class="carousel-item">
+                <h3>The Zoo</h3>
+                <img class="carousel-img" src="images/zoo-img.jpg" alt="zoo-img">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+<!-- SUBSCRIBE -->
+
+    <section class="subscribe" id="subscribe">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-12">
+                <div class="content">
+                    <h2>Subscribe To Our Newsletter!</h2>
+                <div class="input-group">
+                     <input type="email" class="form-control" placeholder="Enter your email">
+                     <span class="input-group-btn">
+                     <button class="btn" type="submit">Subscribe Now</button>
+                     </span>
+                      </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+
+    <footer id="footer">
+        <i class="icon-footer fa-brands fa-twitter"></i>
+        <i class="icon-footer fa-brands fa-facebook-f"></i>
+        <i class="icon-footer fa-brands fa-instagram"></i>
+        <i class="icon-footer fa-solid fa-envelope"></i>
+        <p class="copyright">© Copyright Jax Housing Directory</p>
+    </footer>
+</body>

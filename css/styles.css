@@ -1,0 +1,158 @@
+body{
+    width: 100%;
+    font-family: "Montserrat";
+    background-color: #F5EFE6;
+    text-align: center;
+}
+
+h1{
+    color: #F5EFE6;
+    font-size: 3rem;
+    font-weight: 900;
+}
+h2, h3{
+    font-weight: 800;
+    color:#3C2317
+}
+
+p{
+    color: #3C2317;
+}
+button{
+    background-color: #628E90;
+    border: 1px solid #F5EFE6;
+    border-radius: 12px;
+    color: #3C2317;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 1%;
+}
+
+button:hover{
+    background-color: #F5EFE6;
+    color:#3C2317;
+}
+
+/* HOME */
+#home{
+    background-color: #628E90;
+    text-align:left;
+    padding: 5% 0 10% 5%;
+}
+
+.home-buttons{
+    font-size: 24px;
+    width: 100%;
+}
+.home-image{
+    border-radius: 12px;
+    width: 40%;
+    position: absolute;
+    right: 5%;
+}
+/* NAVBAR */
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 2%; 
+}
+
+.navbar-brand{
+    font-weight: 800;
+}
+
+/* MAP SEARCH */
+
+.map-section{
+    text-align: center;
+    background-color: #F5EFE6;
+    padding: 5%;
+}
+.jax-map{
+
+}
+
+/* JAX REGION SECTION */
+
+.jax-regions-section{
+    background-color: #628E90;
+    font-size: 1.2em;
+    text-align:center;
+    padding: 3% 15%;
+}
+.regions-header{
+    margin-bottom: 3%;
+}
+#region-buttons{
+    margin-left: 15%;
+}
+
+/* CAROUSEL */
+.carousel-section{
+    text-align:center;
+    padding-top: 10%;
+    background-color: #F5EFE6;
+    color: #3C2317;
+}
+.carousel-img{
+    height: 500px;
+    margin:2%;
+}
+.carousel-item{
+    margin: 5% 0;
+}
+
+/* SUBSCRIBE */
+
+/* .subscribe{
+    text-align: center;
+    padding: 5%;
+    margin-left: 35%;
+    width: 65%;
+} */
+.subscribe{
+    padding: 80px 0;
+    background: #628E90;
+    }
+    
+    .subscribe .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    .subscribe .content h2 {
+    color: #B4CDE6;
+    margin-bottom: 40px; }
+    .subscribe .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:12px;
+    }
+    .subscribe .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #B4CDE6;
+    }
+    .subscribe .content .btn {
+    min-height: 50px; 
+    border-radius:12px;
+    background: #B4CDE6;
+    color: #fff;
+    font-weight:600;
+    }
+
+/* FOOTER */
+
+#footer{
+    background-color: #628E90;
+    color: #B4CDE6;
+    padding-bottom: 5%;
+}
+.icon-footer{
+    padding: 1%;
+}
+.copyright{
+    padding-top: 2%;
+}
