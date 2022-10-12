@@ -14,11 +14,10 @@ h2, h3{
     font-weight: 800;
     color:#3C2317
 }
-
 p{
     color: #3C2317;
 }
-button{
+.bttn{
     background-color: #628E90;
     border: 1px solid #F5EFE6;
     border-radius: 12px;
@@ -28,11 +27,13 @@ button{
     margin: 1%;
 }
 
-button:hover{
+.bttn:hover{
     background-color: #F5EFE6;
     color:#3C2317;
 }
-
+.carousel-control-prev, .carousel-control-next{
+    filter: invert(100%);
+}
 /* HOME */
 #home{
     background-color: #628E90;
@@ -46,9 +47,11 @@ button:hover{
 }
 .home-image{
     border-radius: 12px;
-    width: 40%;
-    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    /* position: absolute;
     right: 5%;
+    top: 5%; */
 }
 /* NAVBAR */
 
@@ -71,7 +74,7 @@ button:hover{
     padding: 5%;
 }
 .jax-map{
-
+    width: 100%;
 }
 
 /* JAX REGION SECTION */
@@ -86,10 +89,11 @@ button:hover{
     margin-bottom: 3%;
 }
 #region-buttons{
-    margin-left: 15%;
+    display: inline-block;
 }
 
 /* CAROUSEL */
+
 .carousel-section{
     text-align:center;
     padding-top: 10%;
@@ -104,14 +108,6 @@ button:hover{
     margin: 5% 0;
 }
 
-/* SUBSCRIBE */
-
-/* .subscribe{
-    text-align: center;
-    padding: 5%;
-    margin-left: 35%;
-    width: 65%;
-} */
 .subscribe{
     padding: 80px 0;
     background: #628E90;
@@ -123,18 +119,22 @@ button:hover{
     text-align: center;
     position: relative;
     z-index: 2; }
+
     .subscribe .content h2 {
     color: #B4CDE6;
     margin-bottom: 40px; }
+
     .subscribe .content .form-control {
     height: 50px;
     border-color: #ffffff;
     border-radius:12px;
     }
+
     .subscribe .content.form-control:focus {
     box-shadow: none;
     border: 2px solid #B4CDE6;
     }
+
     .subscribe .content .btn {
     min-height: 50px; 
     border-radius:12px;
@@ -155,4 +155,27 @@ button:hover{
 }
 .copyright{
     padding-top: 2%;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:996px){
+    
+    /* HOME SECTION */
+
+    #home{
+        padding-top: 10%;
+    }
+    .home-image{
+        border-radius: 12px;
+        width: 100%;
+        margin: 2% auto;
+    }
+
+    /* CAROUSEL SECTION */
+
+    .carousel-img{
+        height: 300px;
+        margin:2%;
+    }
 }
